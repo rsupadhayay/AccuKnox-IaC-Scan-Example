@@ -24,7 +24,7 @@ jobs:
           directory: ./  
           quiet: "true"                  
           output_file_path: ./results
-          soft_fail: 'true'     
+          soft_fail: "true"     
           token: ${{ secrets.TOKEN }}
           endpoint: "cspm.demo.accuknox.com"
           tenant_id: ${{ secrets.TENANT_ID}}
